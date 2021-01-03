@@ -6,9 +6,9 @@
 }
 
 .home,
-.services,
-.products,
-.sign-up {
+.portfolio,
+.photos,
+.contact {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -16,7 +16,8 @@
   font-size: 3rem;
 }
 
-.services {
+.portfolio {
+  background-image: url("images/img-1.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -24,7 +25,8 @@
   font-size: 100px;
 }
 
-.products {
+.photos {
+  background-image: url("images/img-2.jpg");
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -32,7 +34,8 @@
   font-size: 100px;
 }
 
-.sign-up {
+.contact {
+  background-image: url("images/img-3.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
