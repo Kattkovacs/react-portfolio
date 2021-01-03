@@ -20,7 +20,8 @@ function Footer() {
           <div className="social-media-wrap">
             <div className="footer-logo">
               <Link to="/" className="social-logo">
-                KATTINCH <i className="fas fa-fire" />
+                KATTINCH <p>&nbsp;</p>
+                <i className="fas fa-fire" />
               </Link>
             </div>
             <small className="website-rights">Kattinch © 2021</small>
